@@ -1,0 +1,11 @@
+IMPLEMENTATION OF A PROGRAM TO CONNECT TO PEERS AND DOWNLOADED FILES IN CHUNKS.
+
+The program can register itself with server display available hosts.It can then connect to these host using either hostname or IP address.It support a maximum of 3 connection.
+
+Any attempt to self connect or dulpicate is returned with an appropriate error.
+
+The program also supports download in parallel using specified chunk size.It works well with very small file sizes.
+
+There is another program in 'singfldld' folder that can accept chunk size and download files from a single machine and has been tested to work succsefully.
+
+
